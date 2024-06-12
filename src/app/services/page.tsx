@@ -21,7 +21,7 @@ const Card = ({ image }: { image: any }) => {
         <div className="text-white text-xl text-base font-medium leading-tight">
           Ремонт пореза или порванного потолка
         </div>
-        <div className="text-white relative">
+        <div className="text-white relative overflow-hidden">
           <div className="absolute h-full w-full bg-gradient-to-t from-indigo-900" />
           В большинстве случаев можно выполнить ремонт пореза без замены
           полотна. Так же как и с порванным потолком можно установить заплатку,
@@ -51,10 +51,10 @@ const services = () => {
       <section className="bg-indigo-900 flex justify-center px-10 pt-4 pb-64">
         <div className="grid grid-cols-12 gap-4 w-3/4 max-md:grid-cols-2">
           <div className="col-start-1 col-end-13">
-            <h1 className="text-white text-4xl font-normal  leading-10 mb-5">
+            <h1 className="text-white text-4xl font-normal  leading-10 mb-5 max-lg:text-2xl">
               Услуги
             </h1>
-            <h2 className="text-white text-4xl font-semibold  leading-10 mb-8">
+            <h2 className="text-white text-4xl font-semibold  leading-10 mb-8 max-lg:text-2xl">
               Ремонт натяжного потолка от порезов и протечек до электрики и
               мойки
             </h2>

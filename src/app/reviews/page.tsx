@@ -98,7 +98,7 @@ const revies = () => {
             </h2>
           </div>
           <div className="">
-            <div className="border-2 border-white p-4 flex gap-4">
+            <div className="border-2 border-white p-4 flex gap-4 min-h-[500px]">
               <div className="basis-1/2">
                 <ImageSlider />
               </div>

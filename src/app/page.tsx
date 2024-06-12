@@ -35,9 +35,9 @@ export default function Home() {
           }
         />
       </div>
-      <section className="bg-indigo-900 grid grid-rows-12 grid-cols-12 h-[838px] gap-16">
+      <section className="bg-indigo-900 grid grid-rows-12 grid-cols-12 h-[838px] gap-16 max-lg:grid-cols-2 max-lg:grid-rows-2">
         <div className="justify-center items-start text-4xl leading-10 text-white max-md:pr-5 max-md:pl-8 col-start-1 col-end-7 row-start-1 row-end-7 ">
-          <div className="lg:pl-[16rem]">
+          <div className="lg:pl-[16rem] max-lg:pt-4">
             {" "}
             Почему мы
             <br />

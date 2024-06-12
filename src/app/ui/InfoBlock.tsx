@@ -8,11 +8,11 @@ const InfoBlock = () => {
       <div className="col-start-1 col-end-13">
         <div className="mb-[5%]">
           <div>
-            <p className="text-white text-5xl font-normal leading-10 mb-4">
+            <p className="text-white text-5xl font-normal leading-10 mb-4 max-lg:text-2xl">
               Преимущества
               <br />
             </p>
-            <p className="text-white text-5xl font-bold leading-10">
+            <p className="text-white text-5xl font-bold leading-10 max-lg:text-2xl">
               умных потолков
             </p>
           </div>
@@ -34,7 +34,7 @@ const InfoBlock = () => {
                 </div>
               </div>
               <div className="flex flex-col justify-center text-lg font-semibold leading-5 text-indigo-900 whitespace-nowrap basis-1/2">
-                <div className="justify-center items-center px-16 py-9 w-full bg-white text-center text-xl">
+                <div className="justify-center items-center px-16 py-9 w-full bg-white text-center text-xl max-lg:p-[30px]">
                   Заказать
                 </div>
               </div>
