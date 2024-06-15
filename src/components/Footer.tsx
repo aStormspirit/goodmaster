@@ -3,8 +3,8 @@ import logo from "@/assets/logo.svg";
 
 const Footer = () => {
   return (
-    <div className="bg-blue-950 text-white flex justify-center">
-      <div className="p-10 w-3/4">
+    <footer className="bg-blue-950 text-white flex justify-center">
+      <div className="container mx-auto p-16">
         <div className="flex">
           <Image src={logo} alt="Good Master" width={100} height={100} />
           <div className="flex flex-col ml-10 w-full">
@@ -29,7 +29,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </div>
+    </footer>
   );
 };
 

@@ -9,11 +9,11 @@ const catalog = () => {
   return (
     <div className="bg-indigo-900">
       <Navbar />
-      <div className="text-white text-4xl font-normal font-['Montserrat'] leading-10 flex justify-center">
-        <h1 className="w-3/4 p-8">Каталог</h1>
+      <div className="text-white text-4xl font-normal leading-10 flex justify-start container mx-auto px-16">
+        <h1 className="py-8">Каталог</h1>
       </div>
-      <div className="flex justify-center">
-        <div className="grid lg:grid-cols-4 w-3/4 pb-48 md:grid-cols-2 sm:grid-cols-1 gap-16 justify-items-center p-[2%]">
+      <div className="flex justify-center container mx-auto px-16">
+        <div className="grid lg:grid-cols-4 pb-48 md:grid-cols-2 sm:grid-cols-1 gap-24 justify-items-center">
           {card.map((item, id) => {
             return (
               <Card

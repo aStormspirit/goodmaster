@@ -31,3 +31,18 @@ body {
     text-wrap: balance;
   }
 }
+
+#card:hover {
+  border: 4px solid white;
+  transition-duration: 300ms;
+}
+
+#card:hover #background {
+  opacity: 0;
+  transition-duration: 300ms;
+}
+
+#card:hover #image {
+  height: 160px;
+  transition-duration: 300ms;
+}

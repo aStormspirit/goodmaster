@@ -18,8 +18,11 @@ const Card = ({
   return (
     <div className={`h-[483px] ${className}`}>
       <div className="flex flex-col justify-center text-base text-white h-full">
-        <div className="flex flex-col px-5 pt-5 pb-10 w-full bg-indigo-900 border-2 border-white border-solid h-full justify-between">
-          <div className="h-[222px] relative">
+        <div
+          className="flex flex-col px-5 pt-5 pb-10 w-full bg-indigo-900 border-2 border-white border-solid h-full justify-between"
+          id="card"
+        >
+          <div className="h-[222px] relative" id="image">
             <Image
               src={image}
               alt="image"
@@ -44,7 +47,7 @@ const Card = ({
             href={`/products/${id}`}
             className="w-full h-14 bg-white flex justify-around items-center cursor-pointer z-20"
           >
-            <div className=" text-indigo-900 text-base font-bold font-['Montserrat'] leading-tight">
+            <div className=" text-indigo-900 text-base font-bold leading-tight">
               от 20.000 ₽
             </div>
             <div className="">

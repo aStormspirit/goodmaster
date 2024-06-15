@@ -6,11 +6,12 @@ import fourth from "@/assets/4.png";
 import fifth from "@/assets/5.png";
 import sixth from "@/assets/6.png";
 import seventh from "@/assets/7.png";
+import { motion } from "framer-motion";
 
 const Photos = () => {
   return (
     <section className="flex bg-[#FFFFFF] py-10 justify-center">
-      <div className="w-3/4 flex flex-col gap-10 items-center max-md:gap-2 max-lg:gap-4 pl-[1%] pr-[1%]">
+      <div className="flex flex-col gap-10 items-center max-md:gap-2 max-lg:gap-4 container mx-auto px-16">
         <div className="flex gap-10 max-md:gap-2 max-lg:gap-4">
           <div>
             <Image src={first} alt="Image" width={1304} height={374} />
