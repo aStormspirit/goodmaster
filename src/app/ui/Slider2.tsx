@@ -64,7 +64,7 @@ export function Slider2() {
           </div>
         </div>
         <motion.div
-          className="grid grid-cols-4 gap-32 max-lg:flex max-lg:flex-col max-lg:px-[25%] overflow-hidden mr-10"
+          className="grid grid-cols-4 gap-32 max-lg:flex max-lg:flex-col max-lg:px-[25%] overflow-hidden mr-10 z-10"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}

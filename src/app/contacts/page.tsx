@@ -12,7 +12,7 @@ const contacts = () => {
         <Navbar />
       </div>
       <section className="bg-indigo-900 flex justify-center pb-32 max-lg:pb-16">
-        <div className="w-3/4 p-8 max-lg:min-h-screen">
+        <div className="container mx-auto px-16">
           <div className="flex gap-20 h-full max-lg:flex-col">
             <div className="basis-2/6">
               <h1 className="text-white text-4xl font-normal font-['Montserrat'] leading-10 mb-10">

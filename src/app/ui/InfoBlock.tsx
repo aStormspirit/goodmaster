@@ -4,9 +4,9 @@ import Info from "./Info";
 
 const InfoBlock = () => {
   return (
-    <section className="bg-indigo-900 grid grid-cols-12 pl-[13.5%] pr-[13.5%] gap-[4%] pb-[10%] pt-[5%]">
-      <div className="col-start-1 col-end-13">
-        <div className="mb-[5%]">
+    <section className="bg-indigo-900 flex">
+      <div className="container mx-auto px-16 flex flex-col mb-[5%]">
+        <div className="">
           <div>
             <p className="text-white text-5xl font-normal leading-10 mb-4 max-lg:text-2xl">
               Преимущества

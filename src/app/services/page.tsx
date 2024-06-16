@@ -49,19 +49,21 @@ const services = () => {
         <Navbar />
       </div>
       <section className="bg-indigo-900 flex justify-center px-10 pt-4 pb-64">
-        <div className="grid grid-cols-12 gap-4 w-3/4 max-md:grid-cols-2">
-          <div className="col-start-1 col-end-13">
-            <h1 className="text-white text-4xl font-normal  leading-10 mb-5 max-lg:text-2xl">
-              Услуги
-            </h1>
-            <h2 className="text-white text-4xl font-semibold  leading-10 mb-8 max-lg:text-2xl">
-              Ремонт натяжного потолка от порезов и протечек до электрики и
-              мойки
-            </h2>
-          </div>
-          <div className="flex col-start-1 col-end-13 max-lg:flex-col gap-16">
-            <Card image={uslygi} />
-            <Card image={uslugi2} />
+        <div className="container mx-auto px-16">
+          <div className="grid grid-cols-12 gap-4 max-md:grid-cols-2">
+            <div className="col-start-1 col-end-13">
+              <h1 className="text-white text-4xl font-normal  leading-10 mb-5 max-lg:text-2xl">
+                Услуги
+              </h1>
+              <h2 className="text-white text-4xl font-semibold  leading-10 mb-8 max-lg:text-2xl">
+                Ремонт натяжного потолка от порезов и протечек до электрики и
+                мойки
+              </h2>
+            </div>
+            <div className="flex col-start-1 col-end-13 max-lg:flex-col gap-16">
+              <Card image={uslygi} />
+              <Card image={uslugi2} />
+            </div>
           </div>
         </div>
       </section>

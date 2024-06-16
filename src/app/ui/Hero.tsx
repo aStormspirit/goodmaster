@@ -1,3 +1,4 @@
+import Button2 from "@/components/Button2";
 import React from "react";
 
 const Hero = ({ title, description }: any) => {
@@ -20,9 +21,13 @@ const Hero = ({ title, description }: any) => {
               Оставьте заявку на бесплатный замер,посчитаем и подготовим проект
               бесплатно.
             </div>
-            <div className="justify-center items-center px-16 py-5 mt-5 text-xl font-medium leading-6 text-center text-white bg-indigo-900 hover:bg-white hover:text-indigo-900 hover:border-2 hover:border-indigo-900 duration-300 cursor-pointer">
-              Оставить заявку
-            </div>
+            <Button2
+              variant="primary"
+              className={
+                "justify-center items-center px-16 py-5 mt-5 font-medium leading-6"
+              }
+              text="Оставить заявку"
+            />
           </div>
         </div>
       </div>
@@ -31,10 +36,3 @@ const Hero = ({ title, description }: any) => {
 };
 
 export default Hero;
-
-{
-  /* <div className="flex flex-col mt-4 max-w-full">
-<div className="text-4xl leading-10">{title}</div>
-<div className="text-xl">{description}</div>
-</div> */
-}

@@ -59,7 +59,7 @@ const revies = () => {
         <Navbar />
       </div>
       <section className="bg-indigo-900 flex justify-center p-10">
-        <div className="w-3/4">
+        <div className="container mx-auto px-16">
           <div className="flex max-lg:flex-col">
             <div className="basis-1/2">
               <h1 className="text-white text-4xl font-normal font-Montserrat leading-10 mb-10">
@@ -91,7 +91,7 @@ const revies = () => {
         </div>
       </section>
       <section className="bg-indigo-900 flex justify-center p-10">
-        <div className="w-3/4">
+        <div className="container mx-auto px-16">
           <div>
             <h2 className="text-white text-4xl font-normal font-Montserrat leading-10 mb-[40px]">
               Текстовые отзывы
@@ -126,7 +126,7 @@ const revies = () => {
                     </div>
                   </div>
 
-                  <div className="bg-white bg-opacity-10 basis-5/6">
+                  <div className="bg-white bg-opacity-10 basis-5/6 p-6 flex flex-col justify-between">
                     <div className="text-white text-base font-medium font-Montserrat leading-tight">
                       Отзыв клиента:{" "}
                     </div>
