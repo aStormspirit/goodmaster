@@ -6,7 +6,7 @@ const InfoBlock = () => {
   return (
     <section className="bg-indigo-900 flex">
       <div className="container mx-auto px-16 flex flex-col mb-[5%]">
-        <div className="">
+        <div className="py-16">
           <div>
             <p className="text-white text-5xl font-normal leading-10 mb-4 max-lg:text-2xl">
               Преимущества

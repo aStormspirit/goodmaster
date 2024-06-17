@@ -11,45 +11,45 @@ const contacts = () => {
       <div className="bg-indigo-900">
         <Navbar />
       </div>
-      <section className="bg-indigo-900 flex justify-center pb-32 max-lg:pb-16">
+      <section className="bg-indigo-900 flex justify-center pb-32 pt-16 max-lg:pb-16">
         <div className="container mx-auto px-16">
           <div className="flex gap-20 h-full max-lg:flex-col">
             <div className="basis-2/6">
-              <h1 className="text-white text-4xl font-normal font-['Montserrat'] leading-10 mb-10">
+              <h1 className="text-white text-5xl font-normal leading-10 mb-10">
                 Контакты
               </h1>
               <div className="mb-8">
-                <h2 className="text-white text-2xl font-normal font-['Montserrat'] leading-loose mb-2">
+                <h2 className="text-white text-3xl font-normal leading-loose mb-2">
                   Номер телефона
                 </h2>
                 <div className="min-h-[55px] bg-white bg-opacity-10 flex justify-center items-center">
-                  <p className="text-white text-xl font-medium font-['Montserrat'] leading-relaxed">
+                  <p className="text-white text-2xl font-medium leading-relaxed">
                     +7 (904) 305-45-43
                   </p>
                 </div>
               </div>
               <div className="mb-8">
-                <h2 className="text-white text-2xl font-normal font-['Montserrat'] leading-loose mb-2">
+                <h2 className="text-white text-3xl font-normal leading-loose mb-2">
                   Адрес
                 </h2>
                 <div className="min-h-[55px] bg-white bg-opacity-10 flex justify-center items-center">
-                  <div className="text-center text-white text-xl font-medium font-['Montserrat'] leading-relaxed">
+                  <div className="text-center text-white text-2xl font-medium leading-relaxed">
                     СПБ, Василевский остров
                   </div>
                 </div>
               </div>
               <div className="">
-                <h2 className="text-white text-2xl font-normal font-['Montserrat'] leading-loose mb-2">
+                <h2 className="text-white text-2xl font-normal leading-loose mb-2">
                   Соц сети
                 </h2>
                 <div className="flex gap-2 w-full">
                   <div className="basis-1/2 min-h-[55px] bg-white bg-opacity-10 flex justify-center items-center">
-                    <div className="text-white text-xl font-medium font-['Montserrat'] leading-relaxed">
+                    <div className="text-white text-2xl font-medium leading-relaxed">
                       YouTube
                     </div>
                   </div>
                   <div className="basis-1/2 min-h-[55px] bg-white bg-opacity-10 flex justify-center items-center">
-                    <div className="text-white text-xl font-medium font-['Montserrat'] leading-relaxed">
+                    <div className="text-white text-2xl font-medium leading-relaxed">
                       VK
                     </div>
                   </div>

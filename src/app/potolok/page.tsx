@@ -4,11 +4,20 @@ import Hero from "@/app/ui/Hero";
 import Banner from "@/components/Banner";
 import Footer from "@/components/Footer";
 import InfoBlock from "@/app/ui/InfoBlock";
+import bg from "@/assets/bg3.jpeg";
 
 const potolok = () => {
   return (
     <>
-      <div className="w-full bg-[url('/bg3.jpeg')] bg-cover bg-center">
+      <div
+        className="w-full"
+        style={{
+          backgroundImage: `url(${bg.src})`,
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      >
         <Navbar />
         <Hero
           title={

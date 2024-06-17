@@ -5,7 +5,7 @@ import Button2 from "./Button2";
 export const Banner = () => {
   return (
     <>
-      <div className="relative">
+      <div className="relative h-[600px]">
         <Image src={banner} alt="banner" fill style={{ objectFit: "cover" }} />
       </div>
       <div className="relative">

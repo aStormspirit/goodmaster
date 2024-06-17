@@ -85,7 +85,7 @@ export function Slider2() {
               <Card
                 image={element.image}
                 title={element.title}
-                desc={element.description}
+                desc={element.desc}
                 id={element.id}
                 className={index === 4 ? "absolute" : ""}
               />

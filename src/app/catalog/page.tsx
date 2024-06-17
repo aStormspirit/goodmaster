@@ -15,16 +15,7 @@ const catalog = () => {
       <div className="flex justify-center container mx-auto px-16">
         <div className="grid lg:grid-cols-4 pb-48 md:grid-cols-2 sm:grid-cols-1 gap-24 justify-items-center">
           {card.map((item, id) => {
-            return (
-              <Card
-                key={id}
-                title={item.title}
-                desc={item.description}
-                image={item.image}
-                id={item.id}
-                className=""
-              />
-            );
+            return <Card key={id} {...item} id={item.id} className="" />;
           })}
         </div>
       </div>

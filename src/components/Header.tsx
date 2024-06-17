@@ -1,10 +1,20 @@
 import React from "react";
 import Navbar from "./Navbar";
 import Hero from "@/app/ui/Hero";
+import bg from "@/assets/background.png";
 
 const Header = () => {
   return (
-    <div className="w-full bg-[url('/background.png')] bg-no-repeat bg-cover min-h-[715px]">
+    <div
+      className="w-full min-h-[715px]"
+      id="header"
+      style={{
+        backgroundImage: `url(${bg.src})`,
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+    >
       <Navbar />
       <Hero
         title={

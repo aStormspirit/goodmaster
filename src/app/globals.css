@@ -46,3 +46,20 @@ body {
   height: 160px;
   transition-duration: 300ms;
 }
+
+#header {
+  background-image: url("/public/background.png");
+}
+
+#imageBackground {
+  mix-blend-mode: multiply;
+}
+
+#imageBackground:hover {
+  mix-blend-mode: normal;
+  transition-duration: 300ms;
+}
+
+#imageWrapper {
+  background-color: rgba(45, 54, 134, 0.4);
+}
