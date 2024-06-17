@@ -44,7 +44,7 @@ const Slider = () => {
             <Card
               key={id}
               title={item.title}
-              desc={item.description}
+              desc={item.desc}
               image={item.image}
               id={item.id}
               className={
