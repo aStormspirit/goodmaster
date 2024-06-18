@@ -11,7 +11,16 @@ import Button from "@/components/Button";
 
 const ImageSlider = () => {
   const [index, setIndex] = useState(0);
-  const [slides, setSlides] = useState([slide1, slide2, slide3, slide4]);
+  const [slides, setSlides] = useState([
+    slide1,
+    slide2,
+    slide3,
+    slide4,
+    slide1,
+    slide2,
+    slide3,
+    slide4,
+  ]);
 
   const prevCard = () => {
     if (index === 0) return;
@@ -38,10 +47,17 @@ const ImageSlider = () => {
           className="w-[60px] flex justify-center items-center"
           onClick={() => prevCard()}
         />
-        <div className="w-full flex gap-2 ml-2">
+        <div className="flex gap-2 ml-2">
           {slides.map((slide, i) => (
-            <div className="relative w-[60px] h-[60px] border-2">
+            <div
+              key={i}
+              id={`${index == i ? "" : "imageWrapper2"}`}
+              className={`relative w-[60px] h-[60px] ${
+                index == i ? "border-2" : ""
+              }`}
+            >
               <Image
+                id={`${index == i ? "" : "imageBackground"}`}
                 alt="Image"
                 fill
                 style={{ objectFit: "cover" }}

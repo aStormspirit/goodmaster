@@ -5,38 +5,48 @@ import Button2 from "./Button2";
 export const Banner = () => {
   return (
     <>
-      <div className="relative h-[600px]">
-        <Image src={banner} alt="banner" fill style={{ objectFit: "cover" }} />
-      </div>
-      <div className="relative">
-        <div className="w-full flex h-full absolute top-0 z-0">
-          <div className="bg-indigo-900 w-1/2 h-full"></div>
-          <div className="bg-white w-1/2 h-full"></div>
+      <div className="">
+        <div className="relative h-[600px]">
+          <Image
+            src={banner}
+            alt="banner"
+            fill
+            style={{ objectFit: "cover" }}
+          />
         </div>
-        <div className="container mx-auto px-16 h-full flex">
-          <div className="basis-1/2 w-full text-white py-16 z-10">
-            <p className="text-4xl leading-10">Пожалуйста,</p>
-            <p className="font-bold text-4xl leading-10 ">звоните.</p>
-            <p className="text-2xl font-normal leading-loose my-6">
-              Вам ответит Илья
-            </p>
-            <Button2
-              variant="secondary"
-              className={"bg-white w-[80%] px-16 py-4 text-indigo-900"}
-              text={"+7 (904) 305-45-43"}
-            />
+      </div>
+
+      <div className="">
+        <div className="relative">
+          <div className="w-full flex h-full absolute top-0 z-0">
+            <div className="bg-indigo-900 w-1/2 h-full"></div>
+            <div className="bg-white w-1/2 h-full"></div>
           </div>
-          <div className="basis-1/2 text-indigo-900 py-16 z-10 pl-24">
-            <p className="text-4xl leading-10">Расчет проекта,</p>
-            <p className="font-bold text-4xl leading-10">бесплатно.</p>
-            <p className="text-2xl font-normal leading-loose my-6">
-              Поможем и подскажем
-            </p>
-            <Button2
-              variant="primary"
-              className={"bg-indigo-900 px-16 py-4 text-white"}
-              text={"Оставить заявку"}
-            />
+          <div className="container mx-auto px-16 h-full flex">
+            <div className="basis-1/2 w-full text-white py-16 z-10">
+              <p className="text-4xl leading-10">Пожалуйста,</p>
+              <p className="font-bold text-4xl leading-10 ">звоните.</p>
+              <p className="text-2xl font-normal leading-loose my-6">
+                Вам ответит Илья
+              </p>
+              <Button2
+                variant="secondary"
+                className={"bg-white w-[80%] px-16 py-4 text-indigo-900"}
+                text={"+7 (904) 305-45-43"}
+              />
+            </div>
+            <div className="basis-1/2 text-indigo-900 py-16 z-10 pl-24">
+              <p className="text-4xl leading-10">Расчет проекта,</p>
+              <p className="font-bold text-4xl leading-10">бесплатно.</p>
+              <p className="text-2xl font-normal leading-loose my-6">
+                Поможем и подскажем
+              </p>
+              <Button2
+                variant="primary"
+                className={"bg-indigo-900 px-16 py-4 text-white"}
+                text={"Оставить заявку"}
+              />
+            </div>
           </div>
         </div>
       </div>

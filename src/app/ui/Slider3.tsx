@@ -83,8 +83,8 @@ function Slider3() {
         <Slider {...settings} ref={ref}>
           {card.map((item) => {
             return (
-              <div key={item.id} className="z-20">
-                <Card {...item} className="mr-8" />
+              <div key={item.id} className="">
+                <Card {...item} className="mr-8 z-20" />
               </div>
             );
           })}

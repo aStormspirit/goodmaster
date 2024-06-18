@@ -1,6 +1,7 @@
 import React from "react";
 import ImageSlider from "./ImageSlider";
 import Info from "./Info";
+import Button2 from "@/components/Button2";
 
 const InfoBlock = () => {
   return (
@@ -28,15 +29,20 @@ const InfoBlock = () => {
             <Info />
             <div className="flex w-full items-end  w-full justify-between">
               <div className="flex flex-col h-full justify-center text-base leading-5 text-white w-[45%]">
-                <div className="justify-center h-full w-full bg-indigo-900 border-2 border-white border-solid text-center flex flex-col text-lg">
+                <div className="justify-center h-full w-full bg-indigo-900 border-2 border-white border-solid text-center flex flex-col text-lg hover:border-4 duration-300">
                   <p className="font-light">Стоимость услуги</p>
                   <p className="text-lg font-semibold">от 20.000 ₽</p>
                 </div>
               </div>
               <div className="flex flex-col justify-center text-lg font-semibold leading-5 text-indigo-900 whitespace-nowrap basis-1/2">
-                <div className="justify-center items-center px-16 py-9 w-full bg-white text-center text-xl max-lg:p-[30px]">
+                <Button2
+                  text="Заказать"
+                  variant="secondary"
+                  className="px-16 py-9"
+                />
+                {/* <div className="justify-center items-center px-16 py-9 w-full bg-white text-center text-xl max-lg:p-[30px]">
                   Заказать
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
