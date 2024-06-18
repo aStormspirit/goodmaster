@@ -8,13 +8,13 @@ const Video = () => {
       <div className="basis-4/5">
         <Image src={tre} alt="Image" />
       </div>
-      <div className="flex flex-col items-center justify-between p-5">
-        <p className="text-white text-base font-normal font-['Montserrat'] leading-tight">
+      <div className="flex flex-col items-center justify-between ml-5">
+        <p className="text-white font-normal text-lg leading-tight">
           Металлострой,ул. Полевая,
           <br />
           д.8
         </p>
-        <div className="border-2 border-white p-10">
+        <div className="border-2 border-white w-full h-1/2 flex justify-center items-center">
           <svg
             width="32"
             height="37"

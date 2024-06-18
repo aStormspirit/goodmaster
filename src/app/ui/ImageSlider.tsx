@@ -67,9 +67,8 @@ const ImageSlider = () => {
           ))}
         </div>
         <Button
-          className="w-[60px] flex justify-center items-center"
+          className="w-[60px] flex justify-center items-center origin-center rotate-180"
           onClick={() => nextCard()}
-          rotate={180}
         />
       </div>
     </div>

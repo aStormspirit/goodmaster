@@ -9,12 +9,14 @@ const Video = () => {
         <Image src={thrid} fill alt="video" style={{ objectFit: "cover" }} />
       </div>
       <div className="basis-[40%] border-t-[20px] border-b-[20px] border-white flex flex-col gap-16">
-        <div className="text-white text-2xl font-normal leading-loose border-r-[20px] border-white basis-[50%] p-16">
+        <div className="text-white text-4xl font-normal leading-loose border-r-[20px] border-white basis-[50%] p-16">
           Видео
           <br />о нашей работе
         </div>
         <div className="basis-[40%] w-full flex justify-end">
-          <div className="border-[20px] border-white h-full w-[40%]"></div>
+          <div className="border-[20px] border-white h-full w-[40%] flex justify-center items-center ">
+            <div id="triangle" className="origin-center rotate-90"></div>
+          </div>
         </div>
         <div className="border-r-[20px] border-white basis-[15%]"></div>
       </div>

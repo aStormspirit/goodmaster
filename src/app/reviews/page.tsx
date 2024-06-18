@@ -52,6 +52,70 @@ const Audio = () => {
   );
 };
 
+const RevCard = () => {
+  return (
+    <div className="">
+      <div className="border-2 border-white p-4 flex gap-4 max-h-[463px]">
+        <div className="basis-1/2">
+          <ImageSlider />
+        </div>
+        <div className="basis-1/2">
+          <div className="flex flex-col justify-between h-full">
+            <div className="text-white text-lg font-medium font-Montserrat leading-snug mb-1">
+              Установка потолков в СПБ, ул. Днепровская, д. 65
+            </div>
+            <div className="flex mb-2">
+              <div className="">
+                <div className=" text-white text-base font-light font-Montserrat leading-tight">
+                  Срок исполнени
+                </div>
+                <div className=" text-white text-lg font-medium font-Montserrat leading-snug">
+                  8 дней
+                </div>
+              </div>
+              <div className="">
+                <div className=" text-white text-base font-light font-Montserrat leading-tight">
+                  Бюджет работы
+                </div>
+                <div className=" text-white text-lg font-medium font-Montserrat leading-snug">
+                  97 000 ₽
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-white bg-opacity-10 basis-5/6 p-4 flex flex-col justify-between">
+              <div className="text-white text-base font-medium font-Montserrat leading-tight">
+                Отзыв клиента:{" "}
+              </div>
+              <div className="">
+                <span className="text-white text-base font-light font-Montserrat leading-tight">
+                  В приобретенной квартире начал делать ремонт. Причем
+                  потребовался капитальный. Накопил для этой цели необходимую
+                  сумму. И занялся сразу поиском компании, которая занимается
+                  изготовлением и установкой натяжных потолков. Обратился по
+                  итогу в компанию "Невадо". Связался без проблем с менеджером,
+                  который все объяснил подробно. Заключили договор. Понравилось
+                  как аккуратно произвели установку и причем достаточно
+                  оперативно. Никаких косяков я и не увидел. Ребята
+                  профессионалы. Отметить могу также стоимость. Она вышла вполне
+                  адекватная. Так что компанию могу лишь порекомендовать. Все
+                  отлично.
+                  <br />
+                </span>
+              </div>
+              <div>
+                <span className="text-white text-base font-medium font-Montserrat leading-tight">
+                  Седов Артем
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
 const revies = () => {
   return (
     <>
@@ -65,7 +129,11 @@ const revies = () => {
               <h1 className="text-white text-4xl font-normal font-Montserrat leading-10 mb-10">
                 Аудио отзывы
               </h1>
-              <div>
+              <div className="h-full">
+                <Audio />
+                <Audio />
+                <Audio />
+                <Audio />
                 <Audio />
                 <Audio />
                 <Audio />
@@ -97,66 +165,7 @@ const revies = () => {
               Текстовые отзывы
             </h2>
           </div>
-          <div className="">
-            <div className="border-2 border-white p-4 flex gap-4 min-h-[500px]">
-              <div className="basis-1/2">
-                <ImageSlider />
-              </div>
-              <div className="basis-1/2">
-                <div className="flex flex-col justify-between h-full">
-                  <div className="text-white text-lg font-medium font-Montserrat leading-snug">
-                    Установка потолков в СПБ, ул. Днепровская, д. 65
-                  </div>
-                  <div className="flex">
-                    <div className="">
-                      <div className=" text-white text-base font-light font-Montserrat leading-tight">
-                        Срок исполнени
-                      </div>
-                      <div className=" text-white text-lg font-medium font-Montserrat leading-snug">
-                        8 дней
-                      </div>
-                    </div>
-                    <div className="">
-                      <div className=" text-white text-base font-light font-Montserrat leading-tight">
-                        Бюджет работы
-                      </div>
-                      <div className=" text-white text-lg font-medium font-Montserrat leading-snug">
-                        97 000 ₽
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="bg-white bg-opacity-10 basis-5/6 p-6 flex flex-col justify-between">
-                    <div className="text-white text-base font-medium font-Montserrat leading-tight">
-                      Отзыв клиента:{" "}
-                    </div>
-                    <div className="">
-                      <span className="text-white text-base font-light font-Montserrat leading-tight">
-                        В приобретенной квартире начал делать ремонт. Причем
-                        потребовался капитальный. Накопил для этой цели
-                        необходимую сумму. И занялся сразу поиском компании,
-                        которая занимается изготовлением и установкой натяжных
-                        потолков. Обратился по итогу в компанию "Невадо".
-                        Связался без проблем с менеджером, который все объяснил
-                        подробно. Заключили договор. Понравилось как аккуратно
-                        произвели установку и причем достаточно оперативно.
-                        Никаких косяков я и не увидел. Ребята профессионалы.
-                        Отметить могу также стоимость. Она вышла вполне
-                        адекватная. Так что компанию могу лишь порекомендовать.
-                        Все отлично.
-                        <br />
-                      </span>
-                    </div>
-                    <div>
-                      <span className="text-white text-base font-medium font-Montserrat leading-tight">
-                        Седов Артем
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          <RevCard />
         </div>
       </section>
       <Banner />
