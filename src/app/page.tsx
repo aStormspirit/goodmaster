@@ -4,7 +4,7 @@ import Photos from "./ui/Photos";
 import Slider3 from "./ui/Slider3";
 import Header from "@/components/Header";
 import Player from "@/components/Player";
-import bg from "@/assets/background.png";
+import bg from "@/assets/bg.jpg";
 
 export default function Home() {
   return (

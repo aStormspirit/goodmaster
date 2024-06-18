@@ -54,7 +54,7 @@ function Slider3() {
     ],
   };
   return (
-    <section className="bg-[#2D3686] justify-center pb-32 relative">
+    <section className="bg-[#2D3686] justify-center pb-32 relative overflow-hidden">
       <div className="absolute h-full w-full bg-gradient-to-l z-10 from-indigo-900 to-10%" />
 
       <div className="container mx-auto px-16 z-20 relative">

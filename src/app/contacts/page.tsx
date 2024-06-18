@@ -22,7 +22,7 @@ const contacts = () => {
                 <h2 className="text-white text-3xl font-normal leading-loose mb-2">
                   Номер телефона
                 </h2>
-                <div className="min-h-[55px] bg-white bg-opacity-10 flex justify-center items-center">
+                <div className="min-h-[55px] bg-white bg-opacity-10 flex justify-center items-center hover:border-2 hover:border-white duration-300 hover:bg-indigo-900 hover:bg-opacity-0">
                   <p className="text-white text-2xl font-medium leading-relaxed">
                     +7 (904) 305-45-43
                   </p>
@@ -32,7 +32,7 @@ const contacts = () => {
                 <h2 className="text-white text-3xl font-normal leading-loose mb-2">
                   Адрес
                 </h2>
-                <div className="min-h-[55px] bg-white bg-opacity-10 flex justify-center items-center">
+                <div className="min-h-[55px] bg-white bg-opacity-10 flex justify-center items-center hover:border-2 hover:border-white duration-300 hover:bg-indigo-900 hover:bg-opacity-0">
                   <div className="text-center text-white text-2xl font-medium leading-relaxed">
                     СПБ, Василевский остров
                   </div>
@@ -43,12 +43,12 @@ const contacts = () => {
                   Соц сети
                 </h2>
                 <div className="flex gap-2 w-full">
-                  <div className="basis-1/2 min-h-[55px] bg-white bg-opacity-10 flex justify-center items-center">
+                  <div className="basis-1/2 min-h-[55px] bg-white bg-opacity-10 flex justify-center items-center hover:border-2 hover:border-white duration-300 hover:bg-indigo-900 hover:bg-opacity-0">
                     <div className="text-white text-2xl font-medium leading-relaxed">
                       YouTube
                     </div>
                   </div>
-                  <div className="basis-1/2 min-h-[55px] bg-white bg-opacity-10 flex justify-center items-center">
+                  <div className="basis-1/2 min-h-[55px] bg-white bg-opacity-10 flex justify-center items-center hover:border-2 hover:border-white duration-300 hover:bg-indigo-900 hover:bg-opacity-0">
                     <div className="text-white text-2xl font-medium leading-relaxed">
                       VK
                     </div>
