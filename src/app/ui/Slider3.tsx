@@ -69,8 +69,7 @@ function Slider3() {
               <div className="flex items-center gap-5">
                 <Button className="p-4" onClick={handlePrevSlide} />
                 <Button
-                  className="p-4"
-                  rotate={180}
+                  className="p-4 origin-center rotate-180"
                   onClick={handleNextSlide}
                 />
               </div>

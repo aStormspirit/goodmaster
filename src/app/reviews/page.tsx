@@ -79,7 +79,7 @@ const revies = () => {
                 </div>
                 <div className="flex gap-6">
                   <Button className="p-2" />
-                  <Button className="p-2" rotate={180} />
+                  <Button className="p-2 origin-center rotate-180" />
                 </div>
               </div>
               <div className="flex flex-col gap-10">
