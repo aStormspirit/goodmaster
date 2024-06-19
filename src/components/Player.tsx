@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Video = () => {
   return (
-    <div className="z-10 w-full basis-[80%] flex min-h-[720px] hover">
+    <div className="z-10 w-full basis-[80%] flex min-h-[720px]" id="video2">
       <div className="basis-[60%] border-[20px] border-white relative">
         <Image src={thrid} fill alt="video" style={{ objectFit: "cover" }} />
       </div>
@@ -14,7 +14,10 @@ const Video = () => {
           <br />о нашей работе
         </div>
         <div className="basis-[40%] w-full flex justify-end">
-          <div className="border-[20px] border-white h-full w-[40%] flex justify-center items-center ">
+          <div
+            className="border-[20px] border-white h-full w-[40%] flex justify-center items-center"
+            id="video__button2"
+          >
             <div id="triangle" className="origin-center rotate-90"></div>
           </div>
         </div>

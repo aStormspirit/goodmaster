@@ -4,7 +4,7 @@ import tre from "@/assets/3.png";
 
 const Video = () => {
   return (
-    <div className="border-2 border-white flex p-5">
+    <div className="border-2 border-white flex p-5" id="video">
       <div className="basis-4/5">
         <Image src={tre} alt="Image" />
       </div>
@@ -14,7 +14,10 @@ const Video = () => {
           <br />
           д.8
         </p>
-        <div className="border-2 border-white w-full h-1/2 flex justify-center items-center">
+        <div
+          className="border-2 border-white w-full h-1/2 flex justify-center items-center"
+          id="video__button"
+        >
           <svg
             width="32"
             height="37"

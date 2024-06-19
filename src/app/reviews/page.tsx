@@ -8,7 +8,10 @@ import ImageSlider from "../ui/ImageSlider";
 
 const Audio = () => {
   return (
-    <div className="relative flex-col justify-start items-start inline-flex min-w-[506px] min-h-[119px] border-2 border-white mb-10">
+    <div
+      className="relative flex-col justify-start items-start inline-flex min-w-[506px] min-h-[119px] border-2 border-white mb-10"
+      id="audio"
+    >
       <div className="bg-indigo-900">
         <div className="p-4">
           <div className="text-white text-base font-normal font-Montserrat leading-tight mb-2">
@@ -65,7 +68,7 @@ const RevCard = () => {
               Установка потолков в СПБ, ул. Днепровская, д. 65
             </div>
             <div className="flex mb-2">
-              <div className="">
+              <div className="mr-6">
                 <div className=" text-white text-base font-light font-Montserrat leading-tight">
                   Срок исполнени
                 </div>
@@ -125,7 +128,7 @@ const revies = () => {
       <section className="bg-indigo-900 flex justify-center p-10">
         <div className="container mx-auto px-16">
           <div className="flex max-lg:flex-col">
-            <div className="basis-1/2">
+            <div className="basis-1/2 overflow-scroll max-h-[100vh]">
               <h1 className="text-white text-4xl font-normal font-Montserrat leading-10 mb-10">
                 Аудио отзывы
               </h1>
