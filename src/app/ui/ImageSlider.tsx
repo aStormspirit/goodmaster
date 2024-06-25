@@ -34,7 +34,7 @@ const ImageSlider = () => {
 
   return (
     <div className="h-full flex flex-col justify-between">
-      <div className="flex relative basis-4/5 max-lg:min-h-[50vw]">
+      <div className="flex relative basis-[90%]">
         <Image
           alt="Image"
           fill

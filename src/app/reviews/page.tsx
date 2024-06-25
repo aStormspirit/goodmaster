@@ -57,8 +57,11 @@ const Audio = () => {
 
 const RevCard = () => {
   return (
-    <div className="">
-      <div className="border-2 border-white p-4 flex gap-4 max-h-[463px]">
+    <div className="mb-6">
+      <div
+        className="border-2 border-white p-4 flex gap-4 max-h-[463px] hover:border-4 duration-500"
+        id="rev_card"
+      >
         <div className="basis-1/2">
           <ImageSlider />
         </div>
@@ -86,12 +89,21 @@ const RevCard = () => {
               </div>
             </div>
 
-            <div className="bg-white bg-opacity-10 basis-5/6 p-4 flex flex-col justify-between">
-              <div className="text-white text-base font-medium font-Montserrat leading-tight">
+            <div
+              className="bg-white bg-opacity-10 basis-5/6 p-4 flex flex-col justify-between"
+              id="rev_card_text"
+            >
+              <div
+                className="text-white text-base font-medium font-Montserrat leading-tight"
+                id="rev_card_text2"
+              >
                 Отзыв клиента:{" "}
               </div>
               <div className="">
-                <span className="text-white text-base font-light font-Montserrat leading-tight">
+                <span
+                  className="text-white text-base font-light font-Montserrat leading-tight"
+                  id="rev_card_text2"
+                >
                   В приобретенной квартире начал делать ремонт. Причем
                   потребовался капитальный. Накопил для этой цели необходимую
                   сумму. И занялся сразу поиском компании, которая занимается
@@ -107,7 +119,10 @@ const RevCard = () => {
                 </span>
               </div>
               <div>
-                <span className="text-white text-base font-medium font-Montserrat leading-tight">
+                <span
+                  className="text-white text-base font-medium font-Montserrat leading-tight"
+                  id="rev_card_text2"
+                >
                   Седов Артем
                 </span>
               </div>
@@ -128,19 +143,25 @@ const revies = () => {
       <section className="bg-indigo-900 flex justify-center p-10">
         <div className="container mx-auto px-16">
           <div className="flex max-lg:flex-col">
-            <div className="basis-1/2 overflow-scroll max-h-[100vh]">
-              <h1 className="text-white text-4xl font-normal font-Montserrat leading-10 mb-10">
-                Аудио отзывы
-              </h1>
-              <div className="h-full">
-                <Audio />
-                <Audio />
-                <Audio />
-                <Audio />
-                <Audio />
-                <Audio />
-                <Audio />
-                <Audio />
+            <div className="basis-1/2 relative">
+              <div className="overflow-scroll max-h-[100vh]">
+                <div
+                  className="absolute h-[20%] w-full bg-gradient-to-t from-indigo-900 z-10 bottom-0"
+                  id="background"
+                />
+                <h1 className="text-white text-4xl font-normal font-Montserrat leading-10 mb-10">
+                  Аудио отзывы
+                </h1>
+                <div className="h-full">
+                  <Audio />
+                  <Audio />
+                  <Audio />
+                  <Audio />
+                  <Audio />
+                  <Audio />
+                  <Audio />
+                  <Audio />
+                </div>
               </div>
             </div>
             <div className="basis-1/2">
@@ -168,6 +189,9 @@ const revies = () => {
               Текстовые отзывы
             </h2>
           </div>
+          <RevCard />
+          <RevCard />
+          <RevCard />
           <RevCard />
         </div>
       </section>

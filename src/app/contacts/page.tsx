@@ -58,12 +58,12 @@ const contacts = () => {
             </div>
             <div className="basis-4/6 h-full">
               <div className="border-2 border-white h-full relative">
-                <Image
-                  src={map}
-                  alt="map"
-                  fill
-                  style={{ objectFit: "cover", padding: "2%" }}
-                />
+                <iframe
+                  src="https://yandex.ru/map-widget/v1/?um=constructor%3A83c6099adcd17cf4f08f1c3601960267f974d3f21ffe7b41be167c38bc3f0130&amp;source=constructor"
+                  width="100%"
+                  height="500"
+                  frameBorder="0"
+                ></iframe>
               </div>
             </div>
           </div>

@@ -16,8 +16,18 @@
   }
 }
 
+.overflow-scroll {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
+  font-family: "Montserrat", sans-serif;
   background: linear-gradient(
       to bottom,
       transparent,
@@ -123,4 +133,14 @@ body {
   transition-duration: 500ms;
   box-shadow: 0 0 40px rgba(255, 255, 255, 0.9),
     inset 0 0 40px rgba(255, 255, 255, 0.9);
+}
+
+#rev_card:hover #rev_card_text {
+  background-color: white;
+  transition-duration: 300ms;
+}
+
+#rev_card:hover #rev_card_text2 {
+  color: #2d3686;
+  transition-duration: 300ms;
 }

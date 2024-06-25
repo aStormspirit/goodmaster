@@ -10,7 +10,9 @@ const Navbar = () => {
   return (
     <div className="flex w-full justify-center">
       <div className="flex items-center justify-between container mx-auto px-16 py-10">
-        <Image src={logo} alt="Logo" />
+        <Link href={"/"}>
+          <Image src={logo} alt="Logo" />
+        </Link>
         <div className="flex items-center justify-end flex-1">
           <ul className="flex gap-5 text-base font-light leading-4 text-white max-md:flex-wrap text-xl">
             <li>

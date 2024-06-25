@@ -3,9 +3,9 @@ import React from "react";
 
 const Hero = ({ title, description }: any) => {
   return (
-    <section className="relative h-[600px] flex">
-      <div className="bg-indigo-900 max-md:px-5 absolute top-0 w-1/2 h-full" />
-      <div className="z-10 container mx-auto px-16 grid grid-cols-12">
+    <section className="relative h-[600px] flex max-lg:h-auto">
+      <div className="bg-indigo-900 max-md:px-5 absolute top-0 w-1/2 h-full max-lg" />
+      <div className="z-10 container mx-auto px-16 grid grid-cols-12 max-lg:flex max-lg:flex-col">
         <div className="flex flex-col mt-24 col-start-1 col-end-6 text-white">
           <div className="text-4xl leading-10">{title}</div>
           <div className="text-xl">{description}</div>

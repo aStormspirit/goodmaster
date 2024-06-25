@@ -39,7 +39,7 @@ const Card = ({
               <div
                 className="absolute h-full w-full bg-gradient-to-t from-indigo-900"
                 id="background"
-              ></div>
+              />
               {desc}
             </div>
           </div>
