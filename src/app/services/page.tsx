@@ -13,7 +13,7 @@ const Card = ({ image, desc }: { image: any; desc?: any }) => {
       id="card"
     >
       <div className="p-5 flex flex-col h-full justify-between">
-        <div className="relative basis-[60%] mb-4">
+        <div className="relative basis-[60%] mb-4 max-lg:basis-[20%]">
           <Image
             src={image}
             alt="uslygi1"

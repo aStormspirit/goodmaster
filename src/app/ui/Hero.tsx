@@ -11,8 +11,8 @@ const Hero = ({ title, description }: any) => {
           <div className="text-xl max-lg:text-base">{description}</div>
         </div>
 
-        <div className="flex flex-col text-indigo-900 col-start-8 col-end-13 justify-end max-lg:text-center">
-          <div className="bg-white lg:mb-[50px] p-10 max-lg:p-2">
+        <div className="flex flex-col text-indigo-900 col-start-8 col-end-13 justify-end max-lg:text-center max-lg:pt-8">
+          <div className="bg-white lg:mb-[50px] p-10 max-lg:p-6">
             <div className="text-2xl leading-7 max-md:max-w-full">
               Расчет проекта
               <span className="font-bold text-indigo-900"> бесплатно</span>

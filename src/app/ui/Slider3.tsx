@@ -54,13 +54,13 @@ function Slider3() {
     ],
   };
   return (
-    <section className="bg-[#2D3686] justify-center pb-32 relative overflow-hidden">
+    <section className="bg-[#2D3686] justify-center pb-32 relative overflow-hidden max-lg:pb-8">
       <div className="absolute h-full bg-gradient-to-r z-10 from-indigo-900 rotate-180 w-[10%] right-0" />
 
       <div className="container mx-auto px-16 z-20 relative">
         <div className="w-full z-20">
-          <div className="flex justify-center items-center py-14 text-4xl leading-10 text-white max-md:px-5 max-lg:text-3xl">
-            <div className="flex gap-5 w-full max-md:flex-wrap max-md:max-w-full max-md:justify-center max-md:gap-10">
+          <div className="flex justify-center items-center py-14 text-4xl leading-10 text-white max-md:px-5 max-lg:text-3xl max-lg:py-4">
+            <div className="flex gap-5 w-full max-md:flex-wrap max-md:max-w-full max-md:justify-center">
               <div className="flex-auto max-md:text-center">
                 Готовые решения
                 <br />
@@ -78,12 +78,12 @@ function Slider3() {
         </div>
       </div>
 
-      <div className="slider-container relative left-[12%]">
+      <div className="slider-container relative left-[12%] max-lg:left-[16%]">
         <Slider {...settings} ref={ref}>
           {card.map((item) => {
             return (
               <div key={item.id} className="">
-                <Card {...item} className="mr-24" />
+                <Card {...item} className="mr-24 max-lg:mr-32" />
               </div>
             );
           })}
