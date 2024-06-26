@@ -7,7 +7,7 @@ export const Banner = () => {
   return (
     <section>
       <div className="">
-        <div className="relative h-[600px]">
+        <div className="relative h-[600px] max-lg:h-[400px]">
           <Image
             src={banner}
             alt="banner"
@@ -24,27 +24,35 @@ export const Banner = () => {
             <div className="bg-white w-1/2 h-full max-lg:w-full"></div>
           </div>
           <div className="container mx-auto px-16 h-full flex max-lg:flex-col">
-            <div className="basis-1/2 w-full text-white py-16 z-10">
-              <p className="text-4xl leading-10">Пожалуйста,</p>
-              <p className="font-bold text-4xl leading-10 ">звоните.</p>
-              <p className="text-2xl font-normal leading-loose my-6">
+            <div className="basis-1/2 w-full text-white py-16 z-10 max-lg:py-8">
+              <p className="text-4xl leading-10 max-lg:text-2xl">Пожалуйста,</p>
+              <p className="font-bold text-4xl leading-10 max-lg:text-2xl">
+                звоните.
+              </p>
+              <p className="text-2xl font-normal leading-loose my-6 max-lg:text-lg max-lg:my-2">
                 Вам ответит Илья
               </p>
               <Button2
                 variant="secondary"
-                className={"bg-white lg:w-[80%] px-16 py-4 text-indigo-900"}
+                className={
+                  "bg-white lg:w-[80%] px-16 py-4 text-indigo-900 max-lg:px-4"
+                }
                 text={"+7 (904) 305-45-43"}
               />
             </div>
-            <div className="basis-1/2 text-indigo-900 py-16 z-10 lg:pl-24">
-              <p className="text-4xl leading-10">Расчет проекта,</p>
-              <p className="font-bold text-4xl leading-10">бесплатно.</p>
-              <p className="text-2xl font-normal leading-loose my-6">
+            <div className="basis-1/2 text-indigo-900 py-16 z-10 lg:pl-24 max-lg:py-8">
+              <p className="text-4xl leading-10 max-lg:text-2xl">
+                Расчет проекта,
+              </p>
+              <p className="font-bold text-4xl leading-10 max-lg:text-2xl">
+                бесплатно.
+              </p>
+              <p className="text-2xl font-normal leading-loose my-6 max-lg:text-lg max-lg:my-2">
                 Поможем и подскажем
               </p>
               <Button2
                 variant="primary"
-                className={"bg-indigo-900 px-16 py-4 text-white"}
+                className={"bg-indigo-900 px-16 py-4 text-white max-lg:px-4"}
                 text={"Оставить заявку"}
               />
             </div>

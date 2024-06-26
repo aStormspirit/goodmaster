@@ -59,7 +59,7 @@ function Slider3() {
 
       <div className="container mx-auto px-16 z-20 relative">
         <div className="w-full z-20">
-          <div className="flex justify-center items-center py-14 text-4xl leading-10 text-white max-md:px-5">
+          <div className="flex justify-center items-center py-14 text-4xl leading-10 text-white max-md:px-5 max-lg:text-3xl">
             <div className="flex gap-5 w-full max-md:flex-wrap max-md:max-w-full max-md:justify-center max-md:gap-10">
               <div className="flex-auto max-md:text-center">
                 Готовые решения

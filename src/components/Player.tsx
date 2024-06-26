@@ -30,17 +30,17 @@ const Video = () => {
 const Player = () => {
   return (
     <section className="bg-indigo-900 relative">
-      <div className="grid grid-cols-12 grid-rows-2 h-full absolute h-full w-full top-0">
+      <div className="grid grid-cols-12 grid-rows-2 h-full absolute h-full w-full top-0 max-lg:grid-cols-2">
         <div className="bg-white col-start-1 col-end-7 row-start-2 row-end-3 z-0"></div>
       </div>
       <div className="container mx-auto px-16 h-full flex flex-col justify-between">
-        <div className="text-4xl leading-10 text-white py-12">
+        <div className="text-4xl leading-10 text-white py-12 max-lg:text-2xl">
           Почему мы
           <br />
           <span className="font-bold">хорошо работаем?</span>
         </div>
         <Video />
-        <div className="text-indigo-900 z-10 text-4xl leading-10 pt-10">
+        <div className="text-indigo-900 z-10 text-4xl leading-10 pt-10 max-lg:text-2xl">
           Как мы
           <span className="font-bold"> работаем?</span>
         </div>

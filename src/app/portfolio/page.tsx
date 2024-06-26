@@ -34,11 +34,11 @@ const portfolio = () => {
       />
       <section className="bg-white">
         <div className="flex flex-col items-center">
-          <div className="container mx-auto px-16 py-12">
-            <span className="text-indigo-900 text-4xl font-normal font-['Montserrat'] leading-10">
+          <div className="container mx-auto px-16 py-12 max-lg:py-2">
+            <span className="text-indigo-900 text-4xl font-normal leading-10 max-lg:text-2xl">
               Наше{" "}
             </span>
-            <span className="text-indigo-900 text-4xl font-bold font-['Montserrat'] leading-10">
+            <span className="text-indigo-900 text-4xl font-bold leading-10 max-lg:text-2xl">
               портфолио
             </span>
           </div>

@@ -14,7 +14,7 @@ const Button2 = ({ className, text, variant }: UiButtonProps) => {
     <div
       className={clsx(
         className,
-        "duration-300 cursor-pointer text-center text-xl",
+        "duration-300 cursor-pointer text-center text-xl max-lg:text-base",
         {
           primary:
             "text-white bg-indigo-900 hover:bg-white hover:text-indigo-900 hover:border-2 hover:border-indigo-900",

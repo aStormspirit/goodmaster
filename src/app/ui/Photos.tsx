@@ -33,7 +33,7 @@ const Photos = () => {
   });
 
   return (
-    <section className="flex bg-[#FFFFFF] py-10 justify-center">
+    <section className="flex bg-[#FFFFFF] py-10 justify-center max-lg:py-4">
       {show && <Photo setShow={setShow} image={image} />}
       <div
         className={`flex flex-col gap-10 items-center max-md:gap-2 max-lg:gap-4 container mx-auto px-16 ${
